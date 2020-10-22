@@ -119,10 +119,9 @@ namespace Scribble_Notes
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            //Retrieve note and date from datatable
             int index = dataGridView1.CurrentCell.RowIndex;
             DateTime date = table.Rows[index].Field<DateTime>(1);
-
-            Trace.Write(date);
 
             if (index > -1)
             {

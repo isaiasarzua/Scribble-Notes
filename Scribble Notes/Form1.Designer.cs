@@ -156,7 +156,6 @@
         private System.Windows.Forms.Label labelNote;
         private System.Windows.Forms.TextBox textNote;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonNew;
